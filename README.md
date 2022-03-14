@@ -4,19 +4,14 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
-- [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-Kv6ui2j19)
+- Live Site URL: [Add live site URL here](https://merhanmostafa47.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -29,4 +24,4 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [merhanmostafa](https://www.frontendmentor.io/profile/merhanmostafa47)
