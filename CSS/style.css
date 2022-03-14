@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  margin-top: 6.5rem;
+  margin-bottom: 6.5rem;
+}
+
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1em));
+  align-content: center;
+  justify-content: center;
+}
+
+.container .content .card {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.container .content .card.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.container .content .card.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.container .content .card.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.container .content .card img {
+  width: 70px;
+}
+
+.container .content .card h1 {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  margin: 40px 0;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+.container .content .card p {
+  width: 92%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  margin-bottom: 100px;
+  line-height: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container .content .card button {
+  width: fit-content;
+  border: 1px solid hsl(0, 0%, 95%);
+  background-color: transparent;
+  padding: 10px 25px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.container .content .card button a {
+  text-decoration: none;
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.container .content .card.sedans button:hover,
+.container .content .card.suvs button:hover,
+.container .content .card.luxury button:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container .content .card.sedans button:hover a {
+  color: hsl(31, 77%, 52%);
+}
+
+.container .content .card.suvs button:hover a {
+  color: hsl(184, 100%, 22%);
+}
+
+.container .content .card.luxury button:hover a {
+  color: hsl(179, 100%, 13%);
+}
