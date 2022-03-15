@@ -63,7 +63,7 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.container .content .card button {
+.container .content .card .btn {
   width: fit-content;
   border: 1px solid hsl(0, 0%, 95%);
   background-color: transparent;
@@ -80,27 +80,27 @@ body {
   -o-transition: all 1s;
 }
 
-.container .content .card button a {
+.container .content .card .btn a {
   text-decoration: none;
   color: hsl(0, 0%, 95%);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
 }
 
-.container .content .card.sedans button:hover,
-.container .content .card.suvs button:hover,
-.container .content .card.luxury button:hover {
+.container .content .card.sedans .btn:hover,
+.container .content .card.suvs .btn:hover,
+.container .content .card.luxury .btn:hover {
   background-color: hsl(0, 0%, 95%);
 }
 
-.container .content .card.sedans button:hover a {
+.container .content .card.sedans .btn:hover a {
   color: hsl(31, 77%, 52%);
 }
 
-.container .content .card.suvs button:hover a {
+.container .content .card.suvs .btn:hover a {
   color: hsl(184, 100%, 22%);
 }
 
-.container .content .card.luxury button:hover a {
+.container .content .card.luxury .btn:hover a {
   color: hsl(179, 100%, 13%);
 }
